@@ -7,6 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7431F9C41D25B6B100CAA746 /* AgoraRtcEngineKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7431F9B71D25B6B100CAA746 /* AgoraRtcEngineKit.framework */; };
+		7431F9C51D25B6B100CAA746 /* Emoji.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7431F9B81D25B6B100CAA746 /* Emoji.plist */; };
+		7431F9C61D25B6B100CAA746 /* RongCloudKit.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7431F9B91D25B6B100CAA746 /* RongCloudKit.strings */; };
+		7431F9C71D25B6B100CAA746 /* libopencore-amrnb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7431F9BB1D25B6B100CAA746 /* libopencore-amrnb.a */; };
+		7431F9C81D25B6B100CAA746 /* RCConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7431F9BC1D25B6B100CAA746 /* RCConfig.plist */; };
+		7431F9C91D25B6B100CAA746 /* release_notes_ios.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7431F9BD1D25B6B100CAA746 /* release_notes_ios.txt */; };
+		7431F9CA1D25B6B100CAA746 /* RongCallKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7431F9BE1D25B6B100CAA746 /* RongCallKit.framework */; };
+		7431F9CB1D25B6B100CAA746 /* RongCallLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7431F9BF1D25B6B100CAA746 /* RongCallLib.framework */; };
+		7431F9CC1D25B6B100CAA746 /* RongCloud.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7431F9C01D25B6B100CAA746 /* RongCloud.bundle */; };
+		7431F9CD1D25B6B100CAA746 /* RongIMKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7431F9C11D25B6B100CAA746 /* RongIMKit.framework */; };
+		7431F9CE1D25B6B100CAA746 /* RongIMLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7431F9C21D25B6B100CAA746 /* RongIMLib.framework */; };
+		7431F9D01D25B70700CAA746 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7431F9CF1D25B70700CAA746 /* AssetsLibrary.framework */; };
+		7431F9D21D25B71300CAA746 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7431F9D11D25B71300CAA746 /* AudioToolbox.framework */; };
+		7431F9D41D25B71F00CAA746 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7431F9D31D25B71F00CAA746 /* AVFoundation.framework */; };
+		7431F9D61D25B72900CAA746 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7431F9D51D25B72900CAA746 /* CFNetwork.framework */; };
+		7431F9D81D25B73400CAA746 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7431F9D71D25B73400CAA746 /* CoreAudio.framework */; };
+		7431F9DA1D25B73E00CAA746 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7431F9D91D25B73E00CAA746 /* CoreGraphics.framework */; };
+		7431F9DC1D25B74800CAA746 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7431F9DB1D25B74800CAA746 /* CoreLocation.framework */; };
+		7431F9DE1D25B75200CAA746 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7431F9DD1D25B75200CAA746 /* CoreMedia.framework */; };
+		7431F9E01D25B75C00CAA746 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7431F9DF1D25B75C00CAA746 /* CoreTelephony.framework */; };
+		7431F9E21D25B76500CAA746 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7431F9E11D25B76500CAA746 /* CoreVideo.framework */; };
+		7431F9E41D25B77100CAA746 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7431F9E31D25B77100CAA746 /* ImageIO.framework */; };
+		7431F9E61D25B78500CAA746 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7431F9E51D25B78500CAA746 /* libc++.tbd */; };
+		7431F9E81D25B79000CAA746 /* libc++abi.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7431F9E71D25B79000CAA746 /* libc++abi.tbd */; };
+		7431F9EA1D25B79C00CAA746 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7431F9E91D25B79C00CAA746 /* libsqlite3.tbd */; };
+		7431F9EC1D25B7AF00CAA746 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7431F9EB1D25B7AF00CAA746 /* libstdc++.tbd */; };
+		7431F9EE1D25B7BC00CAA746 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7431F9ED1D25B7BC00CAA746 /* libxml2.tbd */; };
+		7431F9F01D25B7C900CAA746 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7431F9EF1D25B7C900CAA746 /* libz.tbd */; };
+		7431F9F21D25B7D300CAA746 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7431F9F11D25B7D300CAA746 /* MapKit.framework */; };
+		7431F9F41D25B7DF00CAA746 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7431F9F31D25B7DF00CAA746 /* OpenGLES.framework */; };
+		7431F9F61D25B7EA00CAA746 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7431F9F51D25B7EA00CAA746 /* QuartzCore.framework */; };
+		7431F9F81D25B7F800CAA746 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7431F9F71D25B7F700CAA746 /* SystemConfiguration.framework */; };
+		7431F9FA1D25B80400CAA746 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7431F9F91D25B80400CAA746 /* UIKit.framework */; };
+		7431FA0A1D26160400CAA746 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7431F9FE1D26160400CAA746 /* AFHTTPSessionManager.m */; };
+		7431FA0B1D26160400CAA746 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7431FA011D26160400CAA746 /* AFNetworkReachabilityManager.m */; };
+		7431FA0C1D26160400CAA746 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7431FA031D26160400CAA746 /* AFSecurityPolicy.m */; };
+		7431FA0D1D26160400CAA746 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 7431FA051D26160400CAA746 /* AFURLRequestSerialization.m */; };
+		7431FA0E1D26160400CAA746 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 7431FA071D26160400CAA746 /* AFURLResponseSerialization.m */; };
+		7431FA0F1D26160400CAA746 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7431FA091D26160400CAA746 /* AFURLSessionManager.m */; };
+		7431FA131D26166200CAA746 /* NetworkRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7431FA121D26166200CAA746 /* NetworkRequest.m */; };
 		748A9E391D24B41300F1D7E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 748A9E381D24B41300F1D7E8 /* main.m */; };
 		748A9E3C1D24B41300F1D7E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 748A9E3B1D24B41300F1D7E8 /* AppDelegate.m */; };
 		748A9E3F1D24B41300F1D7E8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 748A9E3E1D24B41300F1D7E8 /* ViewController.m */; };
@@ -35,6 +75,56 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7431F9B71D25B6B100CAA746 /* AgoraRtcEngineKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AgoraRtcEngineKit.framework; sourceTree = "<group>"; };
+		7431F9B81D25B6B100CAA746 /* Emoji.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Emoji.plist; sourceTree = "<group>"; };
+		7431F9BA1D25B6B100CAA746 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/RongCloudKit.strings; sourceTree = "<group>"; };
+		7431F9BB1D25B6B100CAA746 /* libopencore-amrnb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrnb.a"; sourceTree = "<group>"; };
+		7431F9BC1D25B6B100CAA746 /* RCConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = RCConfig.plist; sourceTree = "<group>"; };
+		7431F9BD1D25B6B100CAA746 /* release_notes_ios.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = release_notes_ios.txt; sourceTree = "<group>"; };
+		7431F9BE1D25B6B100CAA746 /* RongCallKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RongCallKit.framework; sourceTree = "<group>"; };
+		7431F9BF1D25B6B100CAA746 /* RongCallLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RongCallLib.framework; sourceTree = "<group>"; };
+		7431F9C01D25B6B100CAA746 /* RongCloud.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = RongCloud.bundle; sourceTree = "<group>"; };
+		7431F9C11D25B6B100CAA746 /* RongIMKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RongIMKit.framework; sourceTree = "<group>"; };
+		7431F9C21D25B6B100CAA746 /* RongIMLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RongIMLib.framework; sourceTree = "<group>"; };
+		7431F9C31D25B6B100CAA746 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/RongCloudKit.strings"; sourceTree = "<group>"; };
+		7431F9CF1D25B70700CAA746 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		7431F9D11D25B71300CAA746 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		7431F9D31D25B71F00CAA746 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		7431F9D51D25B72900CAA746 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		7431F9D71D25B73400CAA746 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		7431F9D91D25B73E00CAA746 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7431F9DB1D25B74800CAA746 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		7431F9DD1D25B75200CAA746 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		7431F9DF1D25B75C00CAA746 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		7431F9E11D25B76500CAA746 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		7431F9E31D25B77100CAA746 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		7431F9E51D25B78500CAA746 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		7431F9E71D25B79000CAA746 /* libc++abi.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++abi.tbd"; path = "usr/lib/libc++abi.tbd"; sourceTree = SDKROOT; };
+		7431F9E91D25B79C00CAA746 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		7431F9EB1D25B7AF00CAA746 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		7431F9ED1D25B7BC00CAA746 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		7431F9EF1D25B7C900CAA746 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		7431F9F11D25B7D300CAA746 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		7431F9F31D25B7DF00CAA746 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		7431F9F51D25B7EA00CAA746 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7431F9F71D25B7F700CAA746 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		7431F9F91D25B80400CAA746 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7431F9FD1D26160400CAA746 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		7431F9FE1D26160400CAA746 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		7431F9FF1D26160400CAA746 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		7431FA001D26160400CAA746 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		7431FA011D26160400CAA746 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		7431FA021D26160400CAA746 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		7431FA031D26160400CAA746 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		7431FA041D26160400CAA746 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		7431FA051D26160400CAA746 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		7431FA061D26160400CAA746 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		7431FA071D26160400CAA746 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		7431FA081D26160400CAA746 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		7431FA091D26160400CAA746 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		7431FA111D26166200CAA746 /* NetworkRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkRequest.h; sourceTree = "<group>"; };
+		7431FA121D26166200CAA746 /* NetworkRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkRequest.m; sourceTree = "<group>"; };
+		7431FA141D2616A900CAA746 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		748A9E341D24B41300F1D7E8 /* XuyangDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XuyangDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		748A9E381D24B41300F1D7E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		748A9E3A1D24B41300F1D7E8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -58,6 +148,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7431F9FA1D25B80400CAA746 /* UIKit.framework in Frameworks */,
+				7431F9F81D25B7F800CAA746 /* SystemConfiguration.framework in Frameworks */,
+				7431F9F61D25B7EA00CAA746 /* QuartzCore.framework in Frameworks */,
+				7431F9F41D25B7DF00CAA746 /* OpenGLES.framework in Frameworks */,
+				7431F9F21D25B7D300CAA746 /* MapKit.framework in Frameworks */,
+				7431F9F01D25B7C900CAA746 /* libz.tbd in Frameworks */,
+				7431F9EE1D25B7BC00CAA746 /* libxml2.tbd in Frameworks */,
+				7431F9EC1D25B7AF00CAA746 /* libstdc++.tbd in Frameworks */,
+				7431F9EA1D25B79C00CAA746 /* libsqlite3.tbd in Frameworks */,
+				7431F9E81D25B79000CAA746 /* libc++abi.tbd in Frameworks */,
+				7431F9E61D25B78500CAA746 /* libc++.tbd in Frameworks */,
+				7431F9E41D25B77100CAA746 /* ImageIO.framework in Frameworks */,
+				7431F9E21D25B76500CAA746 /* CoreVideo.framework in Frameworks */,
+				7431F9E01D25B75C00CAA746 /* CoreTelephony.framework in Frameworks */,
+				7431F9DE1D25B75200CAA746 /* CoreMedia.framework in Frameworks */,
+				7431F9DC1D25B74800CAA746 /* CoreLocation.framework in Frameworks */,
+				7431F9DA1D25B73E00CAA746 /* CoreGraphics.framework in Frameworks */,
+				7431F9D81D25B73400CAA746 /* CoreAudio.framework in Frameworks */,
+				7431F9D61D25B72900CAA746 /* CFNetwork.framework in Frameworks */,
+				7431F9D41D25B71F00CAA746 /* AVFoundation.framework in Frameworks */,
+				7431F9D21D25B71300CAA746 /* AudioToolbox.framework in Frameworks */,
+				7431F9D01D25B70700CAA746 /* AssetsLibrary.framework in Frameworks */,
+				7431F9C41D25B6B100CAA746 /* AgoraRtcEngineKit.framework in Frameworks */,
+				7431F9CA1D25B6B100CAA746 /* RongCallKit.framework in Frameworks */,
+				7431F9CB1D25B6B100CAA746 /* RongCallLib.framework in Frameworks */,
+				7431F9C71D25B6B100CAA746 /* libopencore-amrnb.a in Frameworks */,
+				7431F9CE1D25B6B100CAA746 /* RongIMLib.framework in Frameworks */,
+				7431F9CD1D25B6B100CAA746 /* RongIMKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,9 +196,96 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7431F9B51D25B5D600CAA746 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				7431F9FC1D26160400CAA746 /* AFNetworking */,
+				7431F9B61D25B6B100CAA746 /* Rong_Cloud_iOS_IMKit_SDK_v2_6_4_stable_with_CallKit */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		7431F9B61D25B6B100CAA746 /* Rong_Cloud_iOS_IMKit_SDK_v2_6_4_stable_with_CallKit */ = {
+			isa = PBXGroup;
+			children = (
+				7431F9B71D25B6B100CAA746 /* AgoraRtcEngineKit.framework */,
+				7431F9B81D25B6B100CAA746 /* Emoji.plist */,
+				7431F9B91D25B6B100CAA746 /* RongCloudKit.strings */,
+				7431F9BB1D25B6B100CAA746 /* libopencore-amrnb.a */,
+				7431F9BC1D25B6B100CAA746 /* RCConfig.plist */,
+				7431F9BD1D25B6B100CAA746 /* release_notes_ios.txt */,
+				7431F9BE1D25B6B100CAA746 /* RongCallKit.framework */,
+				7431F9BF1D25B6B100CAA746 /* RongCallLib.framework */,
+				7431F9C01D25B6B100CAA746 /* RongCloud.bundle */,
+				7431F9C11D25B6B100CAA746 /* RongIMKit.framework */,
+				7431F9C21D25B6B100CAA746 /* RongIMLib.framework */,
+			);
+			path = Rong_Cloud_iOS_IMKit_SDK_v2_6_4_stable_with_CallKit;
+			sourceTree = "<group>";
+		};
+		7431F9FB1D25B80700CAA746 /* MyFramework */ = {
+			isa = PBXGroup;
+			children = (
+				7431F9F91D25B80400CAA746 /* UIKit.framework */,
+				7431F9F71D25B7F700CAA746 /* SystemConfiguration.framework */,
+				7431F9F51D25B7EA00CAA746 /* QuartzCore.framework */,
+				7431F9F31D25B7DF00CAA746 /* OpenGLES.framework */,
+				7431F9F11D25B7D300CAA746 /* MapKit.framework */,
+				7431F9EF1D25B7C900CAA746 /* libz.tbd */,
+				7431F9ED1D25B7BC00CAA746 /* libxml2.tbd */,
+				7431F9EB1D25B7AF00CAA746 /* libstdc++.tbd */,
+				7431F9E91D25B79C00CAA746 /* libsqlite3.tbd */,
+				7431F9E71D25B79000CAA746 /* libc++abi.tbd */,
+				7431F9E51D25B78500CAA746 /* libc++.tbd */,
+				7431F9E31D25B77100CAA746 /* ImageIO.framework */,
+				7431F9E11D25B76500CAA746 /* CoreVideo.framework */,
+				7431F9DF1D25B75C00CAA746 /* CoreTelephony.framework */,
+				7431F9DD1D25B75200CAA746 /* CoreMedia.framework */,
+				7431F9DB1D25B74800CAA746 /* CoreLocation.framework */,
+				7431F9D91D25B73E00CAA746 /* CoreGraphics.framework */,
+				7431F9D71D25B73400CAA746 /* CoreAudio.framework */,
+				7431F9D51D25B72900CAA746 /* CFNetwork.framework */,
+				7431F9D31D25B71F00CAA746 /* AVFoundation.framework */,
+				7431F9D11D25B71300CAA746 /* AudioToolbox.framework */,
+				7431F9CF1D25B70700CAA746 /* AssetsLibrary.framework */,
+			);
+			name = MyFramework;
+			sourceTree = "<group>";
+		};
+		7431F9FC1D26160400CAA746 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				7431F9FD1D26160400CAA746 /* AFHTTPSessionManager.h */,
+				7431F9FE1D26160400CAA746 /* AFHTTPSessionManager.m */,
+				7431F9FF1D26160400CAA746 /* AFNetworking.h */,
+				7431FA001D26160400CAA746 /* AFNetworkReachabilityManager.h */,
+				7431FA011D26160400CAA746 /* AFNetworkReachabilityManager.m */,
+				7431FA021D26160400CAA746 /* AFSecurityPolicy.h */,
+				7431FA031D26160400CAA746 /* AFSecurityPolicy.m */,
+				7431FA041D26160400CAA746 /* AFURLRequestSerialization.h */,
+				7431FA051D26160400CAA746 /* AFURLRequestSerialization.m */,
+				7431FA061D26160400CAA746 /* AFURLResponseSerialization.h */,
+				7431FA071D26160400CAA746 /* AFURLResponseSerialization.m */,
+				7431FA081D26160400CAA746 /* AFURLSessionManager.h */,
+				7431FA091D26160400CAA746 /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		7431FA101D26163C00CAA746 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				7431FA111D26166200CAA746 /* NetworkRequest.h */,
+				7431FA121D26166200CAA746 /* NetworkRequest.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
 		748A9E2B1D24B41300F1D7E8 = {
 			isa = PBXGroup;
 			children = (
+				7431FA141D2616A900CAA746 /* PrefixHeader.pch */,
+				7431F9FB1D25B80700CAA746 /* MyFramework */,
 				748A9E361D24B41300F1D7E8 /* XuyangDemo */,
 				748A9E501D24B41400F1D7E8 /* XuyangDemoTests */,
 				748A9E5B1D24B41400F1D7E8 /* XuyangDemoUITests */,
@@ -101,6 +306,8 @@
 		748A9E361D24B41300F1D7E8 /* XuyangDemo */ = {
 			isa = PBXGroup;
 			children = (
+				7431F9B51D25B5D600CAA746 /* Lib */,
+				7431FA101D26163C00CAA746 /* Tool */,
 				748A9E3A1D24B41300F1D7E8 /* AppDelegate.h */,
 				748A9E3B1D24B41300F1D7E8 /* AppDelegate.m */,
 				748A9E3D1D24B41300F1D7E8 /* ViewController.h */,
@@ -225,6 +432,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 748A9E2B1D24B41300F1D7E8;
 			productRefGroup = 748A9E351D24B41300F1D7E8 /* Products */;
@@ -244,8 +452,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				748A9E471D24B41300F1D7E8 /* LaunchScreen.storyboard in Resources */,
+				7431F9C51D25B6B100CAA746 /* Emoji.plist in Resources */,
 				748A9E441D24B41300F1D7E8 /* Assets.xcassets in Resources */,
+				7431F9C81D25B6B100CAA746 /* RCConfig.plist in Resources */,
+				7431F9C61D25B6B100CAA746 /* RongCloudKit.strings in Resources */,
+				7431F9CC1D25B6B100CAA746 /* RongCloud.bundle in Resources */,
 				748A9E421D24B41300F1D7E8 /* Main.storyboard in Resources */,
+				7431F9C91D25B6B100CAA746 /* release_notes_ios.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +483,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7431FA0F1D26160400CAA746 /* AFURLSessionManager.m in Sources */,
 				748A9E3F1D24B41300F1D7E8 /* ViewController.m in Sources */,
 				748A9E3C1D24B41300F1D7E8 /* AppDelegate.m in Sources */,
+				7431FA0B1D26160400CAA746 /* AFNetworkReachabilityManager.m in Sources */,
 				748A9E391D24B41300F1D7E8 /* main.m in Sources */,
+				7431FA0C1D26160400CAA746 /* AFSecurityPolicy.m in Sources */,
+				7431FA131D26166200CAA746 /* NetworkRequest.m in Sources */,
+				7431FA0D1D26160400CAA746 /* AFURLRequestSerialization.m in Sources */,
+				7431FA0E1D26160400CAA746 /* AFURLResponseSerialization.m in Sources */,
+				7431FA0A1D26160400CAA746 /* AFHTTPSessionManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +528,15 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		7431F9B91D25B6B100CAA746 /* RongCloudKit.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7431F9BA1D25B6B100CAA746 /* en */,
+				7431F9C31D25B6B100CAA746 /* zh-Hans */,
+			);
+			name = RongCloudKit.strings;
+			sourceTree = "<group>";
+		};
 		748A9E401D24B41300F1D7E8 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -415,8 +644,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/XuyangDemo/Lib/Rong_Cloud_iOS_IMKit_SDK_v2_6_4_stable_with_CallKit",
+				);
+				GCC_PREFIX_HEADER = XuyangDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = XuyangDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/XuyangDemo/Lib/Rong_Cloud_iOS_IMKit_SDK_v2_6_4_stable_with_CallKit",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.v2ex.XuyangDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -426,8 +664,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/XuyangDemo/Lib/Rong_Cloud_iOS_IMKit_SDK_v2_6_4_stable_with_CallKit",
+				);
+				GCC_PREFIX_HEADER = XuyangDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = XuyangDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/XuyangDemo/Lib/Rong_Cloud_iOS_IMKit_SDK_v2_6_4_stable_with_CallKit",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.v2ex.XuyangDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -498,6 +745,7 @@
 				748A9E631D24B41400F1D7E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		748A9E641D24B41400F1D7E8 /* Build configuration list for PBXNativeTarget "XuyangDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +754,7 @@
 				748A9E661D24B41400F1D7E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		748A9E671D24B41400F1D7E8 /* Build configuration list for PBXNativeTarget "XuyangDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +763,7 @@
 				748A9E691D24B41400F1D7E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
